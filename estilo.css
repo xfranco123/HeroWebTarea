@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Poppins:wght@100&family=Roboto+Slab&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+:root {
+}
+
+body {
+  background-color: rgb(243, 239, 239);
+}
+
+.container {
+  width: 80%;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.cnt-header {
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  align-items: center;
+}
+
+.nav-cnt ul {
+  display: flex;
+  list-style: none;
+  gap: 4rem;
+  letter-spacing: 1px;
+}
+
+.nav-cnt a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.nav-cnt a:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+  transition: all 0.3s ease;
+  color: #f89932;
+}
+
+.btn {
+  border: 2px solid black;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  color: rgb(50, 50, 50);
+  font-weight: 600;
+}
+
+.btn:hover {
+  color: white;
+  background-color: rgb(50, 50, 50);
+  transition: all 0.3s ease;
+}
+
+/* hero */
+
+.section-hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 115px;
+}
+
+.box1 h1 {
+  font-size: 4rem;
+}
+
+.london {
+  text-decoration: line-through;
+}
+
+.box1 h3 {
+  font-size: 2rem;
+}
+
+.words img {
+  width: 20px;
+}
+
+.box1 .description {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.btns {
+  margin-top: 70px;
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.btn1 {
+  border: 2px solid black;
+  padding: 10px 50px 10px 50px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  background-color: rgb(50, 50, 50);
+}
+
+.btn1:hover {
+  color: #f89932;
+  transition: all 0.3s ease;
+  text-decoration: underline;
+}
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+}
+.box2 img {
+  scale: 1.5;
+}
+
+.banner {
+  background-color: rgb(50, 50, 50);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transform: skewY(-3deg);
+  padding: 30px;
+}
+
+.banner p {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.banner img {
+  width: 25px;
+}
